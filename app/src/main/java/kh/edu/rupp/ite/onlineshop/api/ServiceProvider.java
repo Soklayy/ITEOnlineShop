@@ -9,7 +9,7 @@ public class ServiceProvider {
 
     public ServiceProvider(){
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://ferupp.s3.ap-southeast-1.amazonaws.com")
+                .baseUrl("https://raw.githubusercontent.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
